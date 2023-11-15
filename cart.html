@@ -19,9 +19,9 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="shop.html">Shop</a></li>
         <li><a href="blog.html">Blog</a></li>
-        <li><a class="active" href="about.html">About</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
-        <li id="lg-bag"><a href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></li>
+        <li id="lg-bag"><a class="active" href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></li>
         <a href="#" id="close"><i class="far fa-times"></i></a>
       </ul>
     </div>
@@ -32,71 +32,87 @@
   </section>
 
   <section id="page-header" class="about-header">
-    <h2>#KnowUs</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, magni?</p>
+    <h2>#cart</h2>
+    <p>Add your couponcode & SAVE upto 70%!</p>
   </section>
 
-  <section id="about-header" class="section-p1">
-    <img src="Img/about/a6.jpg" alt="">
-    <div>
-      <h2>Who We Are?</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Commodi ipsam sit dolorum, perferendis dolor illo voluptas a 
-        accusantium odit nemo accusamus unde explicabo porro ratione 
-        iste necessitatibus molestiae. Quod, ratione.</p>
-        <abbr title="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit vero eos debitis alias quam voluptatem?</abbr>
-        <br><br>
+ <section id="cart" class="section-p1">
+  <table width="100%">
+    <thead>
+      <tr>
+        <td>Remove</td>
+        <td>Image</td>
+        <td>Product</td>
+        <td>Price</td>
+        <td>Quantity</td>
+        <td>Subtotal</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+        <td><img src="Img/products/f1.jpg" alt=""></td>
+        <td>Cartoon Astronaut T-Shirt</td>
+        <td>$118.19</td>
+        <td><input type="number" value="1"></td>
+        <td>$118.19</td>
+      </tr>
+      <tr>
+        <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+        <td><img src="Img/products/f2.jpg" alt=""></td>
+        <td>Cartoon Astronaut T-Shirt</td>
+        <td>$118.19</td>
+        <td><input type="number" value="1"></td>
+        <td>$118.19</td>
+      </tr>
+      <tr>
+        <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+        <td><img src="Img/products/f3.jpg" alt=""></td>
+        <td>Cartoon Astronaut T-Shirt</td>
+        <td>$118.19</td>
+        <td><input type="number" value="1"></td>
+        <td>$118.19</td>
+      </tr>
+      <tr>
+        <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+        <td><img src="Img/products/f4.jpg" alt=""></td>
+        <td>Cartoon Astronaut T-Shirt</td>
+        <td>$118.19</td>
+        <td><input type="number" value="1"></td>
+        <td>$118.19</td>
+      </tr>
+    </tbody>
+  </table>
+ </section>
 
-        <marquee bgcolor="#ccc" loop="-1" scroolamount="5" width="100%">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur animi quibusdam optio itaque alias vel.</marquee>
-    </div>
-  </section>
+ <section id="cart-add" class="section-p1">
+  <div id="coupon">
+    <h3>Apply Coupon</h3>
+    <input type="text" placeholder="Enter Your Coupon">
+    <button class="normal">Apply</button>
+  </div>
 
-  <section id="about-app" class="section-p1">
-    <h1>Download Our <a href="#">App</a></h1>
-    <div class="video">
-      <video autoplay muted loop src="Img/about/1.mp4"></video>
-    </div>
-  </section>
+  <div id="subtotal">
+    <h3>Cart Total</h3>
+    <table>
+      <tr>
+        <td>Cart Subtitle</td>
+        <td>$ 335</td>
+      </tr>
+      <tr>
+        <td>Shipping</td>
+        <td>free</td>
+      </tr>
+      <tr>
+        <td><strong>Total</strong></td>
+        <td><strong>$ 335</strong></td>
+      </tr>
+    </table>
+    <button class="normal">Proceed to checkout</button>
+  </div>
+ </section>
 
-  <section id="feature" class="section-p1">
-    <div class="fe-box">
-      <img src="Img/features/f1.png" alt="">
-      <h6>Free Shipping</h6>
-    </div>
-    <div class="fe-box">
-      <img src="Img/features/f2.png" alt="">
-      <h6>Online Order</h6>
-    </div>
-    <div class="fe-box">
-      <img src="Img/features/f3.png" alt="">
-      <h6>Save Money</h6>
-    </div>
-    <div class="fe-box">
-      <img src="Img/features/f4.png" alt="">
-      <h6>Promotions</h6>
-    </div>
-    <div class="fe-box">
-      <img src="Img/features/f5.png" alt="">
-      <h6>Happy Sell</h6>
-    </div>
-    <div class="fe-box">
-      <img src="Img/features/f6.png" alt="">
-      <h6>24/7 Support</h6>
-    </div>
-  </section>
 
-  <section id="newsletter" class="section-p1 section-m1">
-    <div class="newstext">
-      <h4>Sign Up For NewsLetters</h4>
-      <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
-    </div>
-    <div class="form">
-      <input type="text" placeholder="Your email address">
-      <button class="normal">Sign Up</button>
-    </div>
-  </section>
-
- 
   <footer class="section-p1">
     <div class="col">
       <img class="logo" src="Img/Logo.jpg" alt="">
